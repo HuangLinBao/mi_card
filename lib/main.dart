@@ -42,13 +42,13 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 15.0,horizontal: 60.0),
                 child: Divider(
-                  color: Colors.red,
+                  color: Colors.redAccent[700],
                 ),
               ),
               Card(
                 shape:  OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.red, width: 1)
+                    borderSide: BorderSide(color: Color(0xFFD50000), width: 1)
                 ),
                 shadowColor: Colors.redAccent[700],
                 color: Colors.grey[900],
@@ -82,7 +82,7 @@ class MyApp extends StatelessWidget {
               Card(
                 shape:  OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.red, width: 1)
+                    borderSide: BorderSide(color: Color(0xFFD50000), width: 1)
                 ),
                 shadowColor: Colors.redAccent[700],
                 color: Colors.grey[900],
